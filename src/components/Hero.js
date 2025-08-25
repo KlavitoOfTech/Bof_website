@@ -31,7 +31,7 @@ export default function Hero() {
 
       {/* Shop Section */}
       <section id="shop" className="shop-section">
-        <h1 className="shop-title">Meet Our Team</h1>
+        <h1 className="shop-title">Meet Our Alumnis</h1>
         <div className="shop-grid">
           {products.map((product, productIndex) => (
             <div key={productIndex} className="product-card">
